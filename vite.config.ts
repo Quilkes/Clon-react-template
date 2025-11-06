@@ -16,6 +16,6 @@ export default defineConfig({
     hmr: {
       clientPort: 3000,
     },
-    allowedHosts: [".e2b.app", ".e2b.dev"],
+    allowedHosts: "all",
   },
 });
