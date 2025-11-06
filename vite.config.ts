@@ -14,7 +14,8 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
     hmr: {
-      clientPort: 3000,
+      clientPort: 443,
     },
+    allowedHosts: [".e2b.app"],
   },
 });
