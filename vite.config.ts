@@ -16,6 +16,5 @@ export default defineConfig({
     hmr: {
       clientPort: 3000,
     },
-    allowedHosts: "all",
   },
 });
