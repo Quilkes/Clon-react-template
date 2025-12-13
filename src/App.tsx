@@ -6,7 +6,7 @@ export default function App() {
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="size-8 rounded-md bg-gradient-to-br from-white to-zinc-300"></div>
-            <span className="text-lg font-semibold tracking-tight">Clon</span>
+            <span className="text-lg font-semibold tracking-tight">Adaptar</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-400">
             <a className="hover:text-zinc-200 transition" href="#features">
@@ -40,7 +40,7 @@ export default function App() {
                 Design, build, and launch with
                 <span className="bg-gradient-to-r from-zinc-100 to-zinc-400 bg-clip-text text-transparent">
                   {" "}
-                  Clon
+                  Adaptar
                 </span>
               </h1>
               <p className="mt-5 text-zinc-400 text-base md:text-lg">
@@ -191,7 +191,7 @@ export default function App() {
                 Turn ideas into polished interfaces
               </h3>
               <p className="mt-3 text-zinc-400">
-                Skip boilerplate. Keep the craft. Clon generates code youll be
+                Skip boilerplate. Keep the craft. Adaptar generates code youll be
                 proud to ship.
               </p>
               <div className="mt-6 flex flex-col sm:flex-row items-center gap-3">
@@ -213,7 +213,7 @@ export default function App() {
         <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div className="flex items-center gap-2">
             <div className="size-5 rounded-sm bg-zinc-200"></div>
-            <span>Clon</span>
+            <span>Adaptar</span>
             <span className="hidden md:inline">·</span>
             <span className="hidden md:inline">Build faster with AI</span>
           </div>
