@@ -1,0 +1,14 @@
+# Ignore node_modules (reinstalled during build)
+node_modules
+
+# Ignore build output
+dist
+
+# Ignore git
+.git
+.gitignore
+
+# Ignore dev files
+*.log
+*.md
+.DS_Store

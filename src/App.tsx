@@ -5,8 +5,10 @@ export default function App() {
       <header className="sticky top-0 z-30 border-b border-zinc-900/60 bg-[#0b0b0b]/80 backdrop-blur">
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="size-8 rounded-md bg-gradient-to-br from-white to-zinc-300"></div>
-            <span className="text-lg font-semibold tracking-tight">Adaptar</span>
+            <div className="size-8 rounded-md bg-linear-to-br from-white to-zinc-300"></div>
+            <span className="text-lg font-semibold tracking-tight">
+              Adaptar
+            </span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-400">
             <a className="hover:text-zinc-200 transition" href="#features">
@@ -32,13 +34,13 @@ export default function App() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(255,255,255,0.06),_transparent_55%)]"></div>
+        <div className="pointer-events-none absolute inset-0 bg-[radial-linear(ellipse_at_top,rgba(255,255,255,0.06),transparent_55%)]"></div>
         <div className="mx-auto max-w-7xl px-6">
           <div className="py-20 md:py-28">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="text-4xl md:text-6xl font-semibold tracking-tight">
                 Design, build, and launch with
-                <span className="bg-gradient-to-r from-zinc-100 to-zinc-400 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-zinc-100 to-zinc-400 bg-clip-text text-transparent">
                   {" "}
                   Adaptar
                 </span>
@@ -81,7 +83,7 @@ export default function App() {
               </div>
               <div className="rounded-xl border border-zinc-900 bg-zinc-950 p-5">
                 <div className="text-xs text-zinc-500 mb-3">Preview</div>
-                <div className="rounded-lg border border-zinc-900 bg-gradient-to-b from-zinc-900/30 to-zinc-950 p-6">
+                <div className="rounded-lg border border-zinc-900 bg-linear-to-b from-zinc-900/30 to-zinc-950 p-6">
                   <div className="h-40 rounded-lg border border-zinc-800/60 bg-zinc-900/40"></div>
                   <div className="mt-4 grid grid-cols-3 gap-3">
                     <div className="h-20 rounded-md border border-zinc-800/60 bg-zinc-900/40"></div>
@@ -142,7 +144,7 @@ export default function App() {
               <span className="size-3 rounded-full bg-zinc-700"></span>
             </div>
             <div className="p-6 md:p-10">
-              <div className="h-64 w-full rounded-lg border border-zinc-800/60 bg-[linear-gradient(120deg,_rgba(255,255,255,0.06)_0%,_rgba(255,255,255,0.02)_60%)]"></div>
+              <div className="h-64 w-full rounded-lg border border-zinc-800/60 linear-linear(120deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 60%)"></div>
             </div>
           </div>
         </div>
@@ -185,14 +187,14 @@ export default function App() {
       {/* CTA */}
       <section className="border-t border-zinc-900/60">
         <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
-          <div className="relative overflow-hidden rounded-xl border border-zinc-900 bg-gradient-to-br from-zinc-900 to-zinc-950 p-8 md:p-12">
+          <div className="relative overflow-hidden rounded-xl border border-zinc-900 bg-linear-to-br from-zinc-900 to-zinc-950 p-8 md:p-12">
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-semibold tracking-tight">
                 Turn ideas into polished interfaces
               </h3>
               <p className="mt-3 text-zinc-400">
-                Skip boilerplate. Keep the craft. Adaptar generates code youll be
-                proud to ship.
+                Skip boilerplate. Keep the craft. Adaptar generates code youll
+                be proud to ship.
               </p>
               <div className="mt-6 flex flex-col sm:flex-row items-center gap-3">
                 <button className="inline-flex h-11 items-center rounded-md bg-white px-5 text-sm font-medium text-black hover:bg-zinc-200">
