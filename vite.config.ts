@@ -16,6 +16,6 @@ export default defineConfig({
     hmr: {
       clientPort: 443,
     },
-    allowedHosts: [".e2b.app"],
+    allowedHosts: [".modal.host", ".w.modal.host"],
   },
 });
